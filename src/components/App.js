@@ -1,10 +1,12 @@
 import '../styles/App.css'
+import Layout from './Layout';
+import Home from './Pages/Home';
 
 function App() {
   return (
-    <div className="">
-      <h2>react quiz</h2>
-    </div>
+    <Layout>
+      <Home></Home>
+    </Layout>
   );
 }
 
